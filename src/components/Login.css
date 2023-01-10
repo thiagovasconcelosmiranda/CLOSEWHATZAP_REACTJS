@@ -1,0 +1,38 @@
+.login{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('https://s2.glbimg.com/1NSDFr6ENzBig63a67hLw_hWfEE=/0x0:1500x1000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/4/M/T2gsreTEaBSDgPCiTBmg/whatsapp-ronaldo-prass.jpg');
+     
+}
+
+.login_Opcao{
+ background-color: #ffff;
+ width: 300px;
+ height: 400px;
+
+}
+.login_opcao_button{
+margin-top: 10px;
+margin-left: 26%;
+}
+.login_img{
+     height: 60px;
+     margin-left:27%;
+}
+
+.login_img2{
+     height: 40px;
+     margin-left:32%;
+     margin-top: 50px;
+}
+.login_opcao_button2{
+     margin-top: 20px;
+     margin-left: 26%;
+     }
+
+     .login_text{
+       margin-left:12%;
+       margin-top:60px ;
+     }
