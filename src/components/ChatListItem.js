@@ -5,6 +5,7 @@ export default ({onClick, active, data})=> {
    const[time, setTime] = useState('');
 
    useEffect(()=>{
+     console.log(data);
     if(data.lastMessageDate > 0 ){
       let d = new Date(data.lastMessageDate.seconds * 1000);
       let hours = d.getHours();

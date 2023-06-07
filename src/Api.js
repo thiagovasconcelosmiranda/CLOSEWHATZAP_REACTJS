@@ -60,7 +60,7 @@ export default {
           chats: firebase.firestore.FieldValue.arrayUnion({
             chatId: newChat.id,
             title: user2.name,
-            imagem:user.avatar,
+            imagem:user2.avatar,
             with: user2.id
 
           })
